@@ -762,6 +762,10 @@ body {
 
   $welcome-font : 6.5vh;
 
+  body {
+    min-height : 800px;
+  }
+
   .content-right {
     margin-left:0;
     margin-right:0;

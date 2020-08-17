@@ -69,10 +69,11 @@ if (!dev && cluster.isMaster) {
           (async () => {
             try {
               let user = await instaTouch.getUserMeta(uname);
-              if (user) {
+              if (user.graphql.user) {
                 res.json("exists")
+              } else {
+                res.json("none")
               }
-
             } catch (err) {
               res.json("none")
             }
