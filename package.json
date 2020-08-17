@@ -1,0 +1,32 @@
+{
+  "name": "boiler-2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "node server.js -p $PORT",
+    "dep": "nodemon server.js -p $PORT",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js -p $PORT"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chart.js": "^2.9.3",
+    "express": "^4.17.1",
+    "instalytics": "^4.0.2",
+    "instapro": "^4.0.1",
+    "instatouch": "^2.2.7",
+    "next": "^9.5.2",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.10.0",
+    "react-dom": "^16.13.1",
+    "sass": "^1.26.10",
+    "styled-components": "^5.1.1",
+    "styled-loaders-react": "^1.1.0",
+    "typewriter-effect": "^2.13.1"
+  },
+  "devDependencies": {}
+}
