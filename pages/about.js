@@ -8,7 +8,7 @@ const About = () => (
                 <h1>About</h1>
                 <div className="paragraph">
                     <p>Gramlytics is an Instagram Analytics Web Application. This application search any 
-                    username profile that exists in Instagram and scrapes the information of that profile 
+                    username profile that exists in Instagram & scrapes the information of that profile 
                     and give you a detailed analytics about the profile. Gramlytics can't fetch private profile's
                     information. The application will give you information like total posts, followers, following,
                     total likes, total comments, average likes, average comments, most liked posts (9 posts), most 
